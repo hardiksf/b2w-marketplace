@@ -1,3 +1,99 @@
-body
-  color: red
-  
+.resume
+    padding: 5vw
+    font-family: sans-serif
+    text-align: center
+img
+    height: 25vw
+.sub-header
+    text-transform: uppercase
+    font-size: 1.5em
+    padding: 6vw 0 2vw
+    font-weight: bold
+.name
+    font-size: 2em
+    font-weight: bold
+.profession
+    font-size: 0.8em
+    font-weight: normal
+    padding-top: 0
+.contact
+    font-size: 1em
+.contact.digits, .address
+    padding-bottom: 1vw
+.skill
+    text-transform: uppercase
+    padding-bottom: 1vw
+.skill-name
+    padding: 1vw
+.bar
+    border: 1px solid
+    margin: 0 25vw
+.bar-color
+    background: #333
+
+.detail
+    text-align: justify
+    line-height: 5vw
+.experience, .education
+    border-bottom: 0.3vw solid
+    padding-top: 10vw
+.experience-name
+    font-size: 1.1em
+    font-family: 'open sans'
+    letter-spacing: -0.4vw
+    padding: 4vw 0 1vw
+.date
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    padding-bottom: 0.5vw
+
+/* iPhone 6+, 7+, 8+, XS Max, XR ----------- */
+@media (min-width: 414px)
+    .experience-name
+        letter-spacing: -0.20vw
+
+/* iPads (portrait and landscape) ----------- */
+@media (min-width: 768px)
+    .resume
+        display: flex
+        padding: 0
+        font-size: 2.6vw
+    .brief
+        margin: -7px 0 0 -7px
+        background: #353535
+        padding: 2vw
+        color: transparentize(white, .15)
+        .name
+            font-size: 5vw
+        .profession
+            font-size: 2vw
+    .sub-header
+        font-size: 4vw
+    .bar
+        margin: 0
+    .bar-color
+        background: transparentize(white, .15)
+
+    .detail
+        padding-left: 2vw
+        line-height: 4vw
+    .sub-header
+        font-size: 3vw
+    .experience
+        padding-top: 4vw
+    .experience-name
+        letter-spacing: -0.12vw
+    
+    .experience, .education
+        font-size: 5vw
+    .education
+        padding-top: 8vw
+
+/* iPads pro and above ----------- */
+@media (min-width: 1024px)
+    .brief
+        padding-top: 5vw
+    .detail
+        padding-right: 5vw
+    .experience-name
+        letter-spacing: -0.25vw
+
